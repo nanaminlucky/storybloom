@@ -1,0 +1,188 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>StoryBloom - 物語の確認</title>
+
+    <link rel="stylesheet" href="style.css?v=20260811b">
+</head>
+
+<body>
+
+    <main class="step-page confirm-page">
+
+        <div class="step-label">
+            FINAL CHECK
+        </div>
+
+        <h1>🌸 あなたの物語</h1>
+
+        <p class="step-description">
+            こんな物語になりそうだよ！
+        </p>
+
+
+        <div class="summary">
+
+
+            <!-- STEP 1 -->
+
+            <div class="summary-item">
+
+                <div class="summary-content">
+                    <h2>🌱 どんなお話？</h2>
+
+                    <p id="summaryGenre" class="summary-value-text">
+                        まだ決まっていません
+                    </p>
+                </div>
+
+                <button class="edit-button" data-page="index.html">
+                    変更
+                </button>
+
+            </div>
+
+            <!-- STEP 2 -->
+
+            <div class="summary-item">
+
+                <div class="summary-content">
+                    <h2>🧑 誰の話？</h2>
+
+                    <p id="summaryCharacter" class="summary-value-text">
+                        まだ決まっていません
+                    </p>
+                </div>
+
+                <button class="edit-button" data-page="character.html">
+                    変更
+                </button>
+
+            </div>
+
+            <!-- STEP 3 -->
+
+            <div class="summary-item">
+
+                <div class="summary-content">
+                    <h2>🌎 どこで起こる？</h2>
+
+                    <p id="summaryWorld" class="summary-value-text">
+                        まだ決まっていません
+                    </p>
+                </div>
+
+                <button class="edit-button" data-page="world.html">
+                    変更
+                </button>
+
+            </div>
+
+            <!-- STEP 4 -->
+
+            <div class="summary-item">
+
+                <div class="summary-content">
+                    <h2>✨ 何が起こる？</h2>
+
+                    <p id="summaryElements" class="summary-value-text">
+                        まだ決まっていません
+                    </p>
+                </div>
+
+                <button class="edit-button" data-page="elements.html">
+                    変更
+                </button>
+
+            </div>
+
+            <!-- STEP 5 -->
+
+            <div class="summary-item">
+
+                <div class="summary-content">
+                    <h2>🧭 あらすじ</h2>
+
+                    <p id="summaryStoryLogline" class="summary-value-text">
+                        まだ決まっていません
+                    </p>
+                    <p id="summaryStoryPlot" class="summary-idea summary-value-text"></p>
+                </div>
+
+                <button class="edit-button" data-page="plot.html">
+                    変更
+                </button>
+
+            </div>
+
+            <!-- STEP 6 -->
+
+            <div class="summary-item">
+
+                <div class="summary-content">
+                    <h2>✍️ どう書く？</h2>
+
+                    <p id="summaryStyle" class="summary-value-text">
+                        まだ決まっていません
+                    </p>
+
+                    <p id="summaryStyleIdea" class="summary-idea summary-value-text"></p>
+                </div>
+
+                <button class="edit-button" data-page="style.html">
+                    変更
+                </button>
+
+            </div>
+
+            <!-- STEP 7 -->
+
+            <div class="summary-item">
+
+                <div class="summary-content">
+                    <h2>🌈 どんな気持ちになる？</h2>
+
+                    <p id="summaryMood" class="summary-value-text">
+                        まだ決まっていません
+                    </p>
+                </div>
+
+                <button class="edit-button" data-page="mood.html">
+                    変更
+                </button>
+
+            </div>
+
+
+        </div>
+
+
+        <p class="confirm-message">
+            この内容で物語を作ってみよう！
+        </p>
+
+        <div class="progress-box" aria-live="polite">
+            <div class="progress-bar" id="generationProgressBar" style="width: 0%"></div>
+        </div>
+        <div class="progress-label" id="generationProgressLabel">待機中</div>
+
+        <button class="next-button" id="createButton">
+            ✨ 物語をつくる
+        </button>
+
+    </main>
+
+
+    <script src="utils.js"></script>
+    <script src="confirm.js"></script>
+
+</body>
+
+</html>
+

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>StoryBloom - 読後感</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="step-page">
+
+        <div class="step-label">
+            STEP 1
+        </div>
+
+        <h1>読み終わったとき、どんな気持ちになってほしい？</h1>
+
+        <p class="step-description">
+            好きなものをいくつでも選んでね
+        </p>
+
+
+        <div class="choices">
+
+            <button class="card">
+                <div class="emoji">😊</div>
+                <span>ほっこり</span>
+                <small>心があたたかくなる</small>
+            </button>
+
+            <button class="card">
+                <div class="emoji">😆</div>
+                <span>楽しい</span>
+                <small>思わず笑顔になる</small>
+            </button>
+
+            <button class="card">
+                <div class="emoji">🤩</div>
+                <span>ワクワク</span>
+                <small>冒険したくなる</small>
+            </button>
+
+            <button class="card">
+                <div class="emoji">🥹</div>
+                <span>感動</span>
+                <small>心に残る</small>
+            </button>
+
+            <button class="card">
+                <div class="emoji">😢</div>
+                <span>ちょっぴり切ない</span>
+                <small>少し胸がきゅっとする</small>
+            </button>
+
+            <button class="card">
+                <div class="emoji">😱</div>
+                <span>ドキドキ</span>
+                <small>先が気になって仕方ない</small>
+            </button>
+
+            <button class="card">
+                <div class="emoji">🤔</div>
+                <span>考えさせられる</span>
+                <small>読み終わったあとも考えたくなる</small>
+            </button>
+
+            <button class="card">
+                <div class="emoji">✨</div>
+                <span>不思議な余韻</span>
+                <small>なんだか忘れられない</small>
+            </button>
+
+        </div>
+
+
+        <div class="idea-box">
+
+            <p>💡 こんな感じにしたい！</p>
+
+            <textarea
+                id="moodIdea"
+                placeholder="例：最後は少し泣ける感じにしたい"></textarea>
+
+        </div>
+
+
+        <div class="step-navigation">
+
+            <button class="next-button" id="moodNext">
+                次へ →
+            </button>
+
+        </div>
+
+    </main>
+
+
+    <script src="utils.js"></script>
+    <script src="mood.js"></script>
+
+</body>
+
+</html>

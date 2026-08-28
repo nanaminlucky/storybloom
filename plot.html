@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StoryBloom - あらすじ</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="step-page">
+
+        <div class="step-label">
+            STEP 3
+        </div>
+
+        <h1>🧭 あらすじを決めよう</h1>
+
+        <p class="step-description">
+            まずは主人公と物語の方向を少し固めると、後の選択がぐっとしやすくなります。
+        </p>
+
+        <div class="idea-box">
+            <p>🎯 目標</p>
+            <input id="storyGoal" type="text" placeholder="例：月の光を取り戻して家に帰る" style="width:100%; box-sizing:border-box; padding:10px 12px; border-radius:10px; border:1px solid rgba(73,60,47,0.2);">
+            <p class="helper-text">困ったら、ここから選んでもいいよ</p>
+            <div class="prompt-choice-group">
+                <button type="button" class="prompt-choice" data-fill-for="storyGoal">大切なものを見つける</button>
+                <button type="button" class="prompt-choice" data-fill-for="storyGoal">おうちに帰る</button>
+                <button type="button" class="prompt-choice" data-fill-for="storyGoal">みんなの笑顔を見る</button>
+                <button type="button" class="prompt-choice" data-fill-for="storyGoal">自信を持つ</button>
+                <button type="button" class="prompt-choice" data-fill-for="storyGoal">秘密を知る</button>
+                <button type="button" class="prompt-choice" data-fill-for="storyGoal">大事な人を助ける</button>
+                <button type="button" class="prompt-choice" data-fill-for="storyGoal">新しい場所へ行く</button>
+                <button type="button" class="prompt-choice" data-fill-for="storyGoal">たくさんの夢を見る</button>
+            </div>
+        </div>
+
+        <div class="idea-box">
+            <p>🚧 障害</p>
+            <input id="storyObstacle" type="text" placeholder="例：森の守り人が光を守っている" style="width:100%; box-sizing:border-box; padding:10px 12px; border-radius:10px; border:1px solid rgba(73,60,47,0.2);">
+            <p class="helper-text">困ったら、ここから選んでもいいよ</p>
+            <div class="prompt-choice-group">
+                <button type="button" class="prompt-choice" data-fill-for="storyObstacle">時間が足りない</button>
+                <button type="button" class="prompt-choice" data-fill-for="storyObstacle">道がわからない</button>
+                <button type="button" class="prompt-choice" data-fill-for="storyObstacle">お友だちと意見がちがう</button>
+                <button type="button" class="prompt-choice" data-fill-for="storyObstacle">ちょっとこわい</button>
+                <button type="button" class="prompt-choice" data-fill-for="storyObstacle">知らない場所にいる</button>
+                <button type="button" class="prompt-choice" data-fill-for="storyObstacle">迷子になってしまう</button>
+                <button type="button" class="prompt-choice" data-fill-for="storyObstacle">言えない気持ちがある</button>
+                <button type="button" class="prompt-choice" data-fill-for="storyObstacle">大事な約束を忘れてしまう</button>
+            </div>
+        </div>
+
+        <div class="idea-box">
+            <p>✨ 転機</p>
+            <input id="storyTurn" type="text" placeholder="例：猫が守り人の本当の理由を知る" style="width:100%; box-sizing:border-box; padding:10px 12px; border-radius:10px; border:1px solid rgba(73,60,47,0.2);">
+            <p class="helper-text">困ったら、ここから選んでもいいよ</p>
+            <div class="prompt-choice-group">
+                <button type="button" class="prompt-choice" data-fill-for="storyTurn">ふしぎな友だちに出会う</button>
+                <button type="button" class="prompt-choice" data-fill-for="storyTurn">大事なことがわかる</button>
+                <button type="button" class="prompt-choice" data-fill-for="storyTurn">勇気を出して言う</button>
+                <button type="button" class="prompt-choice" data-fill-for="storyTurn">約束を思い出す</button>
+                <button type="button" class="prompt-choice" data-fill-for="storyTurn">ひとりではなくなった</button>
+                <button type="button" class="prompt-choice" data-fill-for="storyTurn">いつもより大きな声を出す</button>
+                <button type="button" class="prompt-choice" data-fill-for="storyTurn">とても大切な選択をする</button>
+                <button type="button" class="prompt-choice" data-fill-for="storyTurn">みんなで力を合わせる</button>
+            </div>
+        </div>
+
+        <div class="idea-box">
+            <p>🌙 結末</p>
+            <input id="storyEnding" type="text" placeholder="例：光を分けて家に帰り、安心する" style="width:100%; box-sizing:border-box; padding:10px 12px; border-radius:10px; border:1px solid rgba(73,60,47,0.2);">
+            <p class="helper-text">困ったら、ここから選んでもいいよ</p>
+            <div class="prompt-choice-group">
+                <button type="button" class="prompt-choice" data-fill-for="storyEnding">みんなで笑う</button>
+                <button type="button" class="prompt-choice" data-fill-for="storyEnding">ちょっと泣いて、また進む</button>
+                <button type="button" class="prompt-choice" data-fill-for="storyEnding">新しい冒険が始まる</button>
+                <button type="button" class="prompt-choice" data-fill-for="storyEnding">大切なものを分ける</button>
+                <button type="button" class="prompt-choice" data-fill-for="storyEnding">おうちに帰って安心する</button>
+                <button type="button" class="prompt-choice" data-fill-for="storyEnding">みんなでお祝いする</button>
+                <button type="button" class="prompt-choice" data-fill-for="storyEnding">たくさんの夢を持つ</button>
+                <button type="button" class="prompt-choice" data-fill-for="storyEnding">また会えるとわかる</button>
+            </div>
+        </div>
+
+        <div class="idea-box">
+            <p>📌 あらすじ</p>
+            <button type="button" id="generateLoglineButton" class="secondary-button">AIであらすじを作る</button>
+            <textarea id="storyLogline" placeholder="例：小さな白い猫は、月の光を取り戻したいと思っていた。でも、森の守り人に止められ、道に迷う。やがて勇気を出して本当のことを知り、最後には月の光を分けて安心して家へ帰る。"></textarea>
+            <p class="helper-text">「誰が」「何をしたい」「何に阻まれる」「どうやって乗り越える」「最後はどうなる」を1つの文章にまとめると、物語の見通しが立ちます。</p>
+        </div>
+
+        <div class="step-navigation">
+            <button class="next-button" id="plotNext">
+                次へ →
+            </button>
+        </div>
+
+    </main>
+
+    <script src="utils.js"></script>
+    <script src="plot.js"></script>
+
+</body>
+
+</html>

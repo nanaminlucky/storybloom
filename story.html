@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>StoryBloom - あなたの物語</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="story-page">
+
+        <!-- 作品を表示するページ -->
+        <div id="storyCanvas" class="story-canvas">
+
+            <!-- タイトル -->
+            <h1 id="storyTitle" class="story-title"></h1>
+
+            <!-- イラスト -->
+            <div id="storyImage" class="story-image"></div>
+
+            <!-- 文章 -->
+            <div id="storyText" class="story-text"></div>
+
+        </div>
+
+
+        <!-- ページ移動 -->
+        <div class="story-navigation">
+
+            <button id="prevPage">
+                ← 前へ
+            </button>
+
+            <span id="pageNumber">
+                1 / 1
+            </span>
+
+            <button id="nextPage">
+                次へ →
+            </button>
+
+        </div>
+
+
+        <!-- 最初から読む -->
+        <button id="restartButton">
+            ↻ もう一度読む
+        </button>
+
+        <button id="saveToLibraryButton" class="save-story-button">
+            💾 この物語を保存する
+        </button>
+
+        <button id="regenerateButton" class="regenerate-story-button" style="margin-top: 12px;">
+            🔁 別バージョンをつくる
+        </button>
+
+        <div id="storyLibraryPanel" style="margin-top: 20px; width: min(88vw, 760px);">
+            <h3 style="margin-bottom: 10px;">📚 保存した物語</h3>
+            <div id="storyLibraryList" style="display: flex; flex-direction: column; gap: 8px;"></div>
+        </div>
+
+    </main>
+
+    <script src="utils.js"></script>
+    <script src="story.js"></script>
+
+</body>
+
+</html>
