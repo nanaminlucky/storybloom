@@ -10,7 +10,7 @@ AIを活用したオリジナルの物語自動生成Webアプリケーション
 
 ## 🔗 サービスURL
 ブラウザから誰でもすぐに体験していただけます：  
-👉 **[https://onrender.com](https://onrender.com)**
+👉 **[https://storybloom-dzfg.onrender.com](https://storybloom-dzfg.onrender.com)**
 
 ---
 
